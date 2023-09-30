@@ -1,0 +1,23 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "middleware",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expressjs",
+    "middleware"
+  ],
+  "author": "Mst Surnaly Akter",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
