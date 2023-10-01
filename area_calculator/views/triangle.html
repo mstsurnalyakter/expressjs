@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triangle</title>
+     <link rel="stylesheet" href="../css/styles2.css">
   </head>
   <body>
     <header>
@@ -19,12 +20,12 @@
       <form action="/triangle" method="post">
         <section>
           <label for="base">Base: </label>
-          <input type="text" name="base" id="base" />
+          <input type="text" name="base" id="base" required/>
         </section>
         <br />
         <section>
           <label for="height">Height</label>
-          <input type="text" name="height" id="height" />
+          <input type="text" name="height" id="height" required/>
         </section>
         <br />
         <button type="submit">Calculate</button>

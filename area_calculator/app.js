@@ -1,6 +1,9 @@
 const exprees = require('express');
 const bodyParser = require('body-parser');
 const app = exprees();
+
+app.use(exprees.static("public"));
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 
